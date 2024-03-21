@@ -93,10 +93,10 @@ def test_orange_login():
         # Example usage
         sender_email = 'pavankm96@gmail.com'
         sender_password = '7mD3ETbFzIK8QWkB'
-        receiver_emails = ['pavankm96@gmail.com','bhargav.kn@gmail.com']
+        receiver_emails = ['xyz@abc.com','xyz@abc.com']
         subject = 'Test HR Reports'
         message = 'This is a HR Report PFA report.'
-        attachment_paths = ['D:/Pavan_playwright/Test_Orange_HRM/admin_report.csv','D:/Pavan_playwright/Test_Orange_HRM/pim_report.csv']
+        attachment_paths = ['admin_report.csv','pim_report.csv']
         send_email(sender_email, sender_password, receiver_emails, subject, message, attachment_paths)
         browser.close()
     #playwright.stop()
